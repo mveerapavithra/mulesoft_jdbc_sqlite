@@ -8,7 +8,7 @@ public class Connect{
         Connection conn = null;
         try {
             // db parameters
-            String url = "jdbc:sqlite:C:/sqlite/movie.db";       // already existing database(movie.db) i have created in console ,  you can verify in screenshots..
+            String url = "jdbc:sqlite:C:/sqlite/movie.db";       
             // create a connection to the database
             conn = DriverManager.getConnection(url);
             
